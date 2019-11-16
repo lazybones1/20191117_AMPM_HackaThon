@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:padding="22dp">
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:gravity="start|top"
+                    android:ems="10"
+                    android:id="@+id/editText2" android:clickable="false"
+                    android:text="처리조건: 1. 그림의 순서도에 제시되어 있는 미완성 알고리즘을 분석하여, 가장 적합한 로직으로 연계되어 구현될 수 있도록 답안 선택시 유의하시오. 2. 배열의 크기가 7일 경우 배열의 요소는 1부터 7까지 구성되는 것으로 한다. 예를들어 A라는 배열의 크기가 7일 경우 A(7)로 표시하고, 배열의 요소는 A(1)부터 A(7)로 구현된다고 가정한다."
+                    android:enabled="false"/>
+            <ImageView
+                    android:layout_width="228dp"
+                    android:layout_height="wrap_content" app:srcCompat="@drawable/odapex2"
+                    android:id="@+id/imageView2"/>
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" app:srcCompat="@drawable/odapex3"
+                    android:id="@+id/imageView4"/>
+            <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:hint="1번값을 입력하세요" android:id="@+id/editText4"/>
+            <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:hint="2번값을 입력하세요" android:id="@+id/text_two2"/>
+            <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:hint="3번값을 입력하세요" android:id="@+id/editText5"/>
+            <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:hint="4번값을 입력하세요" android:id="@+id/editText6"/>
+            <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:hint="5번값을 입력하세요" android:id="@+id/editText7"/>
+            <Button
+                    android:text="채점하기"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/check" android:onClick="check1"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

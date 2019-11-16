@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:gravity="start|top"
+                    android:ems="10"
+                    android:id="@+id/editText"
+                    android:enabled="false"
+                    android:text="다음은 1000이하의 숫자에서 약수의 합이 자신이 되는 숫자의 수를 구하는 순서도이다. 가령 6의 약수는 1, 2, 3이고 이들의 합은 6으로 자신과 같다.  처리조건  약수 중 가장 큰 수는 그 수를 2로 나눈 것 보다 작거나 같다. 짝수의 경우 자신을 제외한 큰 약수는 2를 나눈 값이다.  사용변수  LM : 문제에서 주어진 수의 개수N,J,R"/>
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" app:srcCompat="@drawable/algo" android:id="@+id/imageView3"/>
+            <Button
+                    android:text="알고리즘 다시풀기"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/solveTwo" android:onClick="solveTwo"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

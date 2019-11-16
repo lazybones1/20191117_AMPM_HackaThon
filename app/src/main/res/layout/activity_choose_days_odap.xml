@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical" android:padding="25dp">
+            <Button
+                    android:text="13일"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/button33"
+                    android:enabled="false"/>
+            <Button
+                    android:text="16일"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/button16" android:onClick="button16"/>
+            <Button
+                    android:text="17일"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/button17" android:onClick="button17"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
